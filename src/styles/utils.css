@@ -1,0 +1,7 @@
+.page-container {
+  @apply overflow-auto;
+  @apply md:overflow-hidden md:flex md:flex-col;
+}
+.page-container > *:not(:last-child) {
+  @apply mb-3;
+}
